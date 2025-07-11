@@ -1,0 +1,253 @@
+final Map<String, List<Map<String, String>>> hardcodedPlans = {
+  'airtel': [
+    {
+      'price': '179',
+      'validity': '28 Days',
+      'desc': 'Unlimited calls, 2GB data, 300 SMS',
+    },
+    {
+      'price': '265',
+      'validity': '28 Days',
+      'desc': '1.5GB/day, unlimited calls, 100 SMS/day',
+    },
+    {
+      'price': '299',
+      'validity': '28 Days',
+      'desc': '2GB/day, unlimited calls, 100 SMS/day',
+    },
+    {
+      'price': '319',
+      'validity': '30 Days',
+      'desc': '2GB/day, unlimited calls, 100 SMS/day',
+    },
+    {
+      'price': '399',
+      'validity': '56 Days',
+      'desc': '1.5GB/day, unlimited calls, 100 SMS/day',
+    },
+    {
+      'price': '479',
+      'validity': '56 Days',
+      'desc': '1.5GB/day, unlimited calls, 100 SMS/day',
+    },
+    {
+      'price': '499',
+      'validity': '28 Days',
+      'desc': '3GB/day, unlimited calls, Amazon Prime',
+    },
+    {
+      'price': '599',
+      'validity': '84 Days',
+      'desc': '2GB/day, unlimited calls, 100 SMS/day',
+    },
+    {
+      'price': '719',
+      'validity': '84 Days',
+      'desc': '1.5GB/day, unlimited calls, 100 SMS/day',
+    },
+    {'price': '839', 'validity': '84 Days', 'desc': '2GB/day, Disney+ Hotstar'},
+    {
+      'price': '999',
+      'validity': '84 Days',
+      'desc': '3GB/day, Amazon Prime, Rewards',
+    },
+    {
+      'price': '1799',
+      'validity': '365 Days',
+      'desc': '2GB/day, unlimited calls, 100 SMS/day',
+    },
+    {
+      'price': '2999',
+      'validity': '365 Days',
+      'desc': '2.5GB/day, Rewards, Amazon Prime',
+    },
+    {'price': '155', 'validity': '24 Days', 'desc': '1GB/day, unlimited calls'},
+    {
+      'price': '199',
+      'validity': '30 Days',
+      'desc': '1.5GB/day, unlimited calls',
+    },
+    {'price': '249', 'validity': '28 Days', 'desc': '1.5GB/day, 100 SMS/day'},
+    {
+      'price': '599',
+      'validity': '70 Days',
+      'desc': '2GB/day, Prime Video Mobile',
+    },
+    {'price': '666', 'validity': '77 Days', 'desc': '1.5GB/day, Rewards'},
+    {'price': '839', 'validity': '84 Days', 'desc': '3GB/day, Disney+ Hotstar'},
+    {
+      'price': '999',
+      'validity': '84 Days',
+      'desc': '3GB/day, Amazon Prime, Extra SMS',
+    },
+  ],
+
+  'jio': [
+    {
+      'price': '149',
+      'validity': '20 Days',
+      'desc': '1GB/day, unlimited calls, 100 SMS/day',
+    },
+    {'price': '209', 'validity': '28 Days', 'desc': '1GB/day, unlimited calls'},
+    {
+      'price': '239',
+      'validity': '28 Days',
+      'desc': '1.5GB/day, unlimited calls',
+    },
+    {'price': '299', 'validity': '28 Days', 'desc': '2GB/day, unlimited calls'},
+    {'price': '349', 'validity': '30 Days', 'desc': '2.5GB/day, 100 SMS/day'},
+    {
+      'price': '399',
+      'validity': '56 Days',
+      'desc': '1.5GB/day, unlimited calls',
+    },
+    {'price': '479', 'validity': '56 Days', 'desc': '2GB/day, unlimited calls'},
+    {
+      'price': '533',
+      'validity': '56 Days',
+      'desc': '2.5GB/day, Netflix Mobile',
+    },
+    {
+      'price': '666',
+      'validity': '84 Days',
+      'desc': '1.5GB/day, unlimited calls',
+    },
+    {'price': '719', 'validity': '84 Days', 'desc': '2GB/day, unlimited calls'},
+    {
+      'price': '799',
+      'validity': '84 Days',
+      'desc': '2.5GB/day, Disney+ Hotstar',
+    },
+    {'price': '999', 'validity': '84 Days', 'desc': '3GB/day, unlimited calls'},
+    {'price': '2879', 'validity': '365 Days', 'desc': '2GB/day, annual pack'},
+    {
+      'price': '2999',
+      'validity': '365 Days',
+      'desc': '2.5GB/day, Netflix + Prime',
+    },
+    {
+      'price': '155',
+      'validity': '28 Days',
+      'desc': '1GB total, unlimited calls',
+    },
+    {
+      'price': '199',
+      'validity': '30 Days',
+      'desc': '1.5GB/day, unlimited calls',
+    },
+    {'price': '222', 'validity': '28 Days', 'desc': '2GB/day, 100 SMS/day'},
+    {'price': '533', 'validity': '56 Days', 'desc': '2.5GB/day, OTT benefits'},
+    {'price': '395', 'validity': '60 Days', 'desc': '6GB total, 1000 SMS'},
+    {'price': '666', 'validity': '84 Days', 'desc': '3GB/day, unlimited calls'},
+  ],
+
+  'vi': [
+    {'price': '149', 'validity': '21 Days', 'desc': '1GB/day, unlimited calls'},
+    {
+      'price': '199',
+      'validity': '28 Days',
+      'desc': '1.5GB/day, unlimited calls',
+    },
+    {'price': '239', 'validity': '28 Days', 'desc': '2GB/day, 100 SMS/day'},
+    {
+      'price': '249',
+      'validity': '28 Days',
+      'desc': '1.5GB/day, weekend rollover',
+    },
+    {
+      'price': '299',
+      'validity': '28 Days',
+      'desc': '2GB/day, weekend rollover',
+    },
+    {
+      'price': '359',
+      'validity': '28 Days',
+      'desc': '3GB/day, weekend rollover',
+    },
+    {
+      'price': '479',
+      'validity': '56 Days',
+      'desc': '1.5GB/day, unlimited calls',
+    },
+    {'price': '539', 'validity': '56 Days', 'desc': '2GB/day, night data free'},
+    {'price': '719', 'validity': '84 Days', 'desc': '1.5GB/day, binge data'},
+    {
+      'price': '839',
+      'validity': '84 Days',
+      'desc': '2GB/day, weekend rollover',
+    },
+    {'price': '999', 'validity': '84 Days', 'desc': '3GB/day, binge all night'},
+    {
+      'price': '155',
+      'validity': '24 Days',
+      'desc': '1GB total, unlimited calls',
+    },
+    {'price': '409', 'validity': '28 Days', 'desc': '4GB/day, OTT combo'},
+    {
+      'price': '666',
+      'validity': '77 Days',
+      'desc': '2GB/day, weekend rollover',
+    },
+    {'price': '699', 'validity': '84 Days', 'desc': '1.5GB/day, OTT combo'},
+    {
+      'price': '1499',
+      'validity': '180 Days',
+      'desc': '1.5GB/day, weekend rollover',
+    },
+    {
+      'price': '2899',
+      'validity': '365 Days',
+      'desc': '2GB/day, unlimited calls',
+    },
+    {
+      'price': '3099',
+      'validity': '365 Days',
+      'desc': '3GB/day, Disney+ Hotstar',
+    },
+    {'price': '75', 'validity': '7 Days', 'desc': '2GB data only'},
+    {'price': '98', 'validity': '14 Days', 'desc': '5GB data only'},
+  ],
+
+  'bsnl': [
+    {'price': '107', 'validity': '84 Days', 'desc': '3GB total, 100 SMS/day'},
+    {'price': '197', 'validity': '70 Days', 'desc': '2GB/day, unlimited calls'},
+    {
+      'price': '247',
+      'validity': '30 Days',
+      'desc': '3GB/day, Eros Now + Calls',
+    },
+    {'price': '299', 'validity': '30 Days', 'desc': '1GB/day, unlimited calls'},
+    {
+      'price': '347',
+      'validity': '54 Days',
+      'desc': '2GB/day, Zing subscription',
+    },
+    {'price': '395', 'validity': '71 Days', 'desc': '2GB/day, free SMS'},
+    {'price': '499', 'validity': '90 Days', 'desc': '2GB/day, Eros Now'},
+    {
+      'price': '666',
+      'validity': '120 Days',
+      'desc': '2GB/day, unlimited calls',
+    },
+    {'price': '997', 'validity': '160 Days', 'desc': '3GB/day, OTT bundle'},
+    {
+      'price': '1499',
+      'validity': '365 Days',
+      'desc': '24GB total, unlimited calls',
+    },
+    {
+      'price': '1999',
+      'validity': '365 Days',
+      'desc': '2GB/day, free caller tunes',
+    },
+    {'price': '2399', 'validity': '395 Days', 'desc': '3GB/day, 100 SMS/day'},
+    {'price': '18', 'validity': '2 Days', 'desc': '1GB data only'},
+    {'price': '49', 'validity': '20 Days', 'desc': '1GB total, 100 SMS'},
+    {'price': '98', 'validity': '22 Days', 'desc': '2GB data + Zing'},
+    {'price': '118', 'validity': '26 Days', 'desc': '0.5GB/day + calls'},
+    {'price': '187', 'validity': '28 Days', 'desc': '2GB/day, unlimited calls'},
+    {'price': '365', 'validity': '60 Days', 'desc': '2GB/day, free tunes'},
+    {'price': '525', 'validity': '90 Days', 'desc': '2GB/day, BSNL tunes'},
+    {'price': '699', 'validity': '100 Days', 'desc': '2GB/day, 100 SMS/day'},
+  ],
+};

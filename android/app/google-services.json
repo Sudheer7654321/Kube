@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "228025746361",
+    "project_id": "kube-b1e94",
+    "storage_bucket": "kube-b1e94.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:228025746361:android:aced2ff942d654e76dac68",
+        "android_client_info": {
+          "package_name": "com.example.kube"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDIOpnP1Vtwl6Pn67VxhV1WLEhj6WfEWtI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
